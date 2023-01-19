@@ -1,3 +1,10 @@
+/* the teal color is 46DABF (at 70% opacity) 
+just layered with the background photos (at 40% opacity). 
+A Figma plugin, "Freepik" under a "library" search. */
+
+
 body {
-background-image: url("./assets/Homepage\ Background.jpg")
+background-image: 
+linear-gradient(46DABF),
+url("./assets/Homepage\ Background.jpg")
 }
