@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results</title>
+    <title>Search</title>
 </head>
-
 <body>
     <div class="nav"><!--welcome, about, catalog, events, donate, my account, signin-->
         <a href="./welcome.html">Welcome</a>
@@ -18,24 +16,21 @@
         <a href="./my-account.html">My Account</a>
         <a href="./signin.html">Sign In</a>
     </div>
-    <h1>Browse Our Catalog</h1>
-    <label>Search <input text></label><label> by author</label>
+<div> Search <input type=text placeholder="Type your query here..."> </div>
+<label> by <select id="dropdown">
+    <option value="">keyword</option>
+    <option value="1">author</option>
+    <option value="2">title</option>
+    <option value="3">series</option>
+    <option value="4">subject</option>
+</select>
+</label>
+<p>Advanced Search</p>
+<button>SEARCH CATALOG</button>
 
-    <label>RESULTS - Available Books </label>
-    <ul class="box-results">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <button>SEARCH CATALOG</button>
+
+
+
     <footer>
         <p>Follow Us</p>
         <img src="./assets/facebook-logo.png">
@@ -46,5 +41,4 @@
         <img src="./assets/yt-logo.png">
     </footer>
 </body>
-
 </html>

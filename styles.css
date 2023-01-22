@@ -11,8 +11,9 @@ https://medium.com/@codefoxx/how-to-easily-add-an-image-overlay-to-your-images-w
 
 body {
 background-image: url("./assets/Homepage\ Background.jpg");
-linear-gradient((70,218,191)),
+linear-gradient: ((70,218,191)),
 }
 
 /* background: url('../img/bg/diagonalnoise.png');
-background-color: rgba((70,218,191) */
+background-color: rgba((70,218,191) */ 
+
