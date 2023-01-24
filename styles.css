@@ -8,11 +8,25 @@ A Figma plugin, "Freepik" under a "library" search. */
 https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
 https://medium.com/@codefoxx/how-to-easily-add-an-image-overlay-to-your-images-with-css-e354a79f530d */
 
-
+nav {
+    text-align: center;
+}
 body {
 background-image: url("./assets/Homepage\ Background.jpg");
-linear-gradient: ((70,218,191)),
+box-shadow: inset 0 0 0 8000px rgba(69, 159, 143, 0.636);
 }
+
+.centerbits {
+    background-color: rgba(154, 202, 207, 0.785);
+    border-radius: 4%;
+    border: 12px;
+}
+
+p, h1, h3, h4 {
+    margin: auto;
+    text-align: center;
+}
+
 
 /* background: url('../img/bg/diagonalnoise.png');
 background-color: rgba((70,218,191) */ 
