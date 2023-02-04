@@ -36,6 +36,7 @@ nav a {
     text-decoration: none;
     spacing: 40px;
 }
+/* why are these non functional? */
 
 body {
     display: flex;
@@ -60,6 +61,7 @@ body {
     position: fixed;
 }
 /* if I have this fixed, how do I put it before tother items? Should I just tie it to the first box? IF so, how? */
+
 .bigBox{
     height: 600px;
     margin: 40px;
@@ -89,6 +91,7 @@ h1, p {
     margin: auto;
     border: 1px solid red;
 }
+/* How do I prevent the transparency in the text */
 
 .search {
     background-color: #67DBC7;
@@ -96,6 +99,8 @@ h1, p {
     margin: 30px;
     padding: 30px;
     opacity: 100%;
+    /* how do i make this opaque */
+    /* how do i center this */
 }
 
 /* background image should be body, inside the body, 
